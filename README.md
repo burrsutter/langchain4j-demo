@@ -14,20 +14,23 @@ Provide a credit card for Billing https://platform.openai.com/account/billing/ov
 
 Monitor usage https://platform.openai.com/usage
 
-Once you have that API key, create a .env file with 
+Create a .env file in the root of the project to hold the API key
 
 ```
 QUARKUS_LANGCHAIN4J_OPENAI_API_KEY=<insert openai.com API key here>
 ```
 
-
-## Running the application in dev mode
+## Running the application in dev interactive mode
 You can run your application in dev mode that enables live coding using:
 ```shell script
 ./mvnw compile quarkus:dev
 ```
 
-![Bank Buddy](./readme-images/main-screen.png)
+```
+open http://localhost:8080
+```
+
+![AI Buddy](./readme-images/main-screen.png)
 
 ## Interacting with the application
 

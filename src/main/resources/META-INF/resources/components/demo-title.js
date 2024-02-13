@@ -48,7 +48,7 @@ export class DemoTitle extends LitElement {
     render() {
         return html`
             <div class="title">
-                <h1>Bank Buddy</h1>
+                <h1>AI Buddy</h1>
             </div>
             <div class="explanation">
                 This demo shows how to build a chat bot powered by GPT 3.5 and retrieval augmented generation.
