@@ -31,7 +31,7 @@ You can run your application in dev mode that enables live coding using:
 
 ## Interacting with the application
 
-Questions:
+Example questions for the Bank
 
 **what are the different types of accounts?**
 
@@ -39,6 +39,13 @@ Questions:
 
 **what are the fees for each?**
 
+Example questions for the Museum
+
+**please describe youre exhibitions**
+
+**what is the minimum size for a youth group visit**
+
+**what were the inspirations for Elijah Montrose?**
 
 ## Parts
 
