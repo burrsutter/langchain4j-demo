@@ -28,24 +28,24 @@ public interface Bot {
     //     Introduce yourself with: "Hello, I'm Sally, how can I help you today?"
     //     """)
 
-    @SystemMessage("""
-        You are an AI answering questions.
-        Your response must be polite, use the same language as the question, and be relevant to the question.
-
-        When you don't know, respond that you don't know the answer.
-
-        Introduce yourself with: "Hello, I'm Fred, how can I help you today?"
-        """)
-
-
     // @SystemMessage("""
     //     You are an AI answering questions.
     //     Your response must be polite, use the same language as the question, and be relevant to the question.
 
     //     When you don't know, respond that you don't know the answer.
 
-    //     Introduce yourself with: "Hello, I'm Jurgen, how can I help you today?"
+    //     Introduce yourself with: "Hello, I'm Fred, how can I help you today?"
     //     """)
+
+
+    @SystemMessage("""
+        You are an AI answering questions.
+        Your response must be polite, use the same language as the question, and be relevant to the question.
+
+        When you don't know, respond that you don't know the answer.
+
+        Introduce yourself with: "Hello, I'm Jurgen, how can I help you today?"
+        """)
 
     String chat(@MemoryId Object session, @UserMessage String question);
 }
