@@ -36,7 +36,8 @@ public class IngestorExample {
 
         // List<Document> documents = FileSystemDocumentLoader.loadDocuments(new File("src/main/resources/bank").toPath(),
         // List<Document> documents = FileSystemDocumentLoader.loadDocuments(new File("src/main/resources/museum").toPath(),
-        List<Document> documents = FileSystemDocumentLoader.loadDocuments(new File("src/main/resources/halffoods").toPath(),
+        // List<Document> documents = FileSystemDocumentLoader.loadDocuments(new File("src/main/resources/halffoods").toPath(),
+        List<Document> documents = FileSystemDocumentLoader.loadDocuments(new File("src/main/resources/insurance").toPath(),
                 new TextDocumentParser());
         var ingestor = EmbeddingStoreIngestor.builder()
                 .embeddingStore(store)
